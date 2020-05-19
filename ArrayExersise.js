@@ -59,8 +59,8 @@ let ownbyshaggy = pets.find(retrieves);
 
 function findpet(pet)
 {
-    return pet.age < 5 && (pet.ownerName[0] == "S" || pet.name[0] == "S")  
+    return pet.age < 5 && (pet.ownerName[0] == "S" || pet.name[0] == "S") ; 
 }
 
 let mypet = pets.filter(findpet);
-//console.log(mypet);
+console.log(mypet);
